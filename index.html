@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://user-images.githubusercontent.com/83146564/137408912-013f0d0c-37d1-4dc2-a1b5-77356c1003f3.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Codo a codo 4.0</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-body-tertiary px-5 py-2 fixed-top" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <a class="navbar-brand" href="#">
+                        <img id="logo-pagina" src="https://user-images.githubusercontent.com/83146564/137408912-013f0d0c-37d1-4dc2-a1b5-77356c1003f3.png" width="100" alt="Logo de la pagina">
+                        <span class="nombre-logo">Conf Bs As</span>
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-e">
+                        <li class="nav-item cursor-pointer">
+                            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Los oradores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">El lugar y la fecha</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Conviértete en orador</a>    
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-verde" href="HTML/ticket.html">Comprar tickets</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> 
+    <div id="carouselExample" class="carousel slide card-superpuesta" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="imagenes/ba1.jpg" class="d-block w-100" alt="Buenos Aires">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/ba2.jpg" class="d-block w-100" alt="Buenos Aires">
+            </div>
+            <div class="carousel-item">
+                <img src="imagenes/ba3.jpg" class="d-block w-100" alt="Obelisco">
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="card-img-overlay d-flex flex-column justify-content-center text-end">
+                <h5 class="card-title1">Conf Bs As</h5>
+                <p class="card-text1">
+                Bs As llega por primera vez a la Argentina. Un evento para compartir con
+                nuestra comunidad el conocimiento y experiencia de los expertos que 
+                están creando el futuro de Internet.Ven a conocer a miembros del
+                evento, a otros estudiantes de Codo a Codo y los oradores primer
+                nivel que tenemos para ti. 
+                Te esperamos!
+                </p>
+                <div>
+                    <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
+                    <button type="button" class="btn btn-success" onclick="location.href='HTML/ticket.html'">
+                        Comprar tickets
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="titulo-oradores">
+        <div>CONOCE A LOS</div> 
+        <H4>ORADORES</H4>
+    </div>
+    <section>
+    <div class="container-oradores">
+        <div class="row">
+            <div class="card-oradores col-md-4">
+                <div class="card">
+                    <img src="https://cdn.britannica.com/04/171104-050-AEFE3141/Steve-Jobs-iPhone-2010.jpg" class="card-img-top" alt="Steve Jobs">
+                    <div class="card-body">
+                        <div class="badges-contenedor">
+                        <span class="badge text-bg-warning">JavaScript</span>
+                        <span class="badge text-bg-info">React</span>
+                        </div>
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, alias, provident magni neque ullam esse explicabo est similique soluta dolorem totam at magnam obcaecati, facilis excepturi. Possimus quasi suscipit a!</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="card-oradores col-md-4">
+                <div class="card">
+                <img src="https://static.nationalgeographicla.com/files/styles/image_3200/public/20-01213_091420-bill-gates-goalkeepers-2020-science_alt.jpg?w=1600" class="card-img-top" alt="Bill Gates">
+                    <div class="card-body">
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-warning">JavaScript</span>
+                            <span class="badge text-bg-info">React</span>
+                        </div>
+                        <h5 class="card-title">Bill Gates</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, alias, provident magni neque ullam esse explicabo est similique soluta dolorem totam at magnam obcaecati, facilis excepturi. Possimus quasi suscipit a!</p>
+                    </div>
+                </div>
+            </div>  
+            <div class="card-oradores col-md-4">
+                <div class="card">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Ada Lovelace">
+                    <div class="card-body">
+                        <div class="badges-contenedor">
+                            <span class="badge text-bg-secondary">JavaScript</span>
+                            <span class="badge text-bg-danger">React</span>
+                        </div>
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, alias, provident magni neque ullam esse explicabo est similique soluta dolorem totam at magnam obcaecati, facilis excepturi. Possimus quasi suscipit a!</p>
+                    </div>
+                </div>
+            </div>  
+        </div>    
+    </div>
+    </section>
+    <div class="card-honolulu">
+        <div class="row g-0">
+            <div class="col-md-6 d-flex">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://img.freepik.com/foto-gratis/playa-tropical_74190-188.jpg?w=2000" class="d-block w-100" alt="Honolulu">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://thumbs.dreamstime.com/b/salida-del-sol-pac%C3%ADfica-en-la-playa-de-lanikai-en-hawaii-11054574.jpg" class="d-block w-100" alt="Buenos Aires">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://cnnespanol.cnn.com/wp-content/uploads/2023/02/https___cdn.cnn_.com_cnnnext_dam_assets_230224150645-01-best-beaches-world-tripadvisor-2023-card.jpg?quality=100&strip=info" class="d-block w-100" alt="Buenos Aires">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/hawaii3.jpg" class="d-block w-100" alt="Buenos Aires">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex p-4 bg-dark honolulu-text">
+                <div>
+                    <h5>Bs As - Octubre</h5>
+                    <p>
+                    Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en los Estados Unidos Honolulu
+                    es la mas sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al 
+                    área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de honolulu han formado una ciudad-
+                    condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).
+                    </p>
+                    <button type="button" class="btn btn-outline-light">Conocé más</button>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="convocatoria-oradores">
+        <div class="div-orador">CONVIÉRTETE EN ORADOR</div> 
+        <H4>ORADOR</H4>
+        <div class="text-convocatoria">Anotate como orador para dar una <u class="subrayado">charla ignite</u>. Cuéntanos de
+            qué quieres hablar!</div>
+    </div>
+    <form action="" class="formulario">
+        <div>    
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+                <div class="mb-4 pt-3" id="textarea">
+                    <textarea class="form-control" id="Textarea1" placeholder="Sobre qué quieres hablar?" rows="3"></textarea>
+                    <label for="textarea" class="texto-area">Recuerda incluir un título para tu charla</label>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-success">Enviar</button>
+                </div>         
+            </div>
+        </div>
+    </form>
+    <footer>   
+        <div class="footer-lista justify-content-center align-items-center">
+            <a class="nav-link footer-link text-center" href="#">Preguntas<br>Frecuentes</a>
+            <a class="nav-link footer-link text-center" href="#">Contáctanos</a>
+            <a class="nav-link footer-link text-center" href="#">Prensa</a>
+            <a class="nav-link footer-link text-center" href="#">Conferencia</a>                        
+            <a class="nav-link footer-link text-center" href="#">Términos y <br> Condiciones</a>
+            <a class="nav-link footer-link text-center" href="#">Privacidad</a>
+            <a class="nav-link footer-link text-center" href="#">Estudiantes</a>
+        </div> 
+    </footer>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
